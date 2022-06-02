@@ -26,8 +26,25 @@ code {
 }
 
 .crad-container {
-  box-shadow: 17px 19px 8px -8px rgb(0 0 0 / 10%), -19px -13px 15px 0px rgb(0 0 0 / 10%), -3px 10px 3px -3px rgb(0 0 0 / 10%), -15px 10px 15px -3px rgb(0 0 0 / 10%), 0px 10px 15px -3px rgb(0 0 0 / 10%), 0px 10px 15px -3px rgb(0 0 0 / 10%);
+  /* box-shadow: 17px 19px 8px -8px rgb(0 0 0 / 10%), -19px -13px 15px 0px rgb(0 0 0 / 10%), -3px 10px 3px -3px rgb(0 0 0 / 10%), -15px 10px 15px -3px rgb(0 0 0 / 10%), 0px 10px 15px -3px rgb(0 0 0 / 10%), 0px 10px 15px -3px rgb(0 0 0 / 10%); */
   width: 100%;
+  box-shadow:
+  3.9px 5.8px 22.6px rgba(0, 0, 0, 0.028),
+  10.8px 16px 62.6px rgba(0, 0, 0, 0.04),
+  25.9px 38.6px 150.7px rgba(0, 0, 0, 0.052),
+  86px 128px 500px rgba(0, 0, 0, 0.08)
+;
+
+}
+
+.crad-container:hover{
+  transform: translateY(-6px);
+ /* transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5); */
+    transition-duration: 600ms;
+  transition-timing-function: ease;
+
 }
 
 .card-title {
